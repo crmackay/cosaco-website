@@ -1,0 +1,89 @@
+.data button {
+    
+    font-size:1.3rem;
+}
+
+.group {
+    border-top: 1px solid black;
+    margin-top: 20px;
+    float: left;
+}
+
+.group .name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.data-primary .data-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.data-primary .data-value {
+    margin-right: 20px;
+}
+
+.data-primary .data-name::after {
+    content: ":";
+    font-weight: bold;
+}
+
+.data-primary .data-element {
+    display: block;
+    margin-right: 25px;
+    float:left;
+}
+
+.data-primary {
+    width: 100%;
+    display:block;
+    float:left;
+}
+
+.data-secondary {
+    width: 100%;
+    display: block;
+    float:left;
+}
+
+.data-secondary .data-question-set {
+/*    border-left: 1px solid grey;*/
+}
+.data-question-set{
+    float:left;
+    width: 100%;
+    margin-top:10px;
+    margin-bottom:10px;
+    
+}
+.data-question-set .data-question {
+    float:left;
+    width: 30%;
+    margin-right: 2%;
+    margin-bottom: 20px;
+} 
+
+@media (max-width: 600px) {
+    .data-question-set .data-question {
+        float:left;
+        width:100%;
+        margin-right: 2%;
+        margin-bottom: 20px;
+    } 
+}
+
+.data-question-set .data-key {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.data-question-set .data-key::after{
+    content: ":";
+    font-weight: bold;
+}
+
+.data-question-set .data-value {
+}
+
+.hidden {
+    display:none;
+}

@@ -1,0 +1,78 @@
+<!--install grunt as a task runner?-->
+
+<div class="data-question-set">
+    <div class="data-question">
+        <div class="data-key">
+            Prevencion (General)
+        </div>
+        <div class="data-value">
+            Si
+        </div>
+    </div>
+</div>
+
+<div class="data-question-set">
+    <div class="data-question">
+        <div class="data-key">
+            Educacion d Sanidad General 
+        </div>
+        <div class="data-value">
+            Si
+        </div>
+    </div>
+</div>
+
+<div class="data-question-set">
+    <div class="data-question">
+        <div class="data-key">
+            Educacion de Prevencion del SIDA/VIH  
+        </div>
+        <div class="data-value">
+            No - Inciende una Luz/Clinica lo haga
+        </div>
+    </div>
+</div>
+
+<div class="data-question-set">
+    <div class="data-question">
+        <div class="data-key">
+            Educacion Prevencion - Mortalidad Materna-infantil  
+        </div>
+        <div class="data-value">
+            Si
+        </div>
+    </div>
+</div>
+
+<div class="data-question-set">
+    <div class="data-question">
+        <div class="data-key">
+            Otra 
+        </div>
+        <div class="data-value">
+            Educacion en los escuelas, visitas a casa, lipieza de agua, sanitacion, alimentacion
+        </div>
+    </div>
+</div>
+
+<div class="data-question-set">
+    <div class="data-question">
+        <div class="data-key">
+            Clinica/Mision de Asistencia Aguda 
+        </div>
+        <div class="data-value">
+            A los bateyes - ves 7.
+        </div>
+    </div>
+</div>
+
+<div class="data-question-set">
+    <div class="data-question">
+        <div class="data-key">
+            Clinica/Mision de Administracion Cronica  
+        </div>
+        <div class="data-value">
+            A los bateyes - ves 7.
+        </div>
+    </div>
+</div>

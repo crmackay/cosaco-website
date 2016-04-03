@@ -22,3 +22,11 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+
+# OSX:
+
+*.DS_Store
+
+# data-file:
+data

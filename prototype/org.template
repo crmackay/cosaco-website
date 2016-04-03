@@ -1,0 +1,44 @@
+<div class="group">
+
+{{range range $j, $elem := . }}
+    
+    // 0,1,2,3 in primary
+    {{if eg $j 0}}
+        <div class="name">{{.}}</div>
+        <div class="data-primary">
+        <div class="data">
+    {{end}}
+    {{else if lt $j 4}
+        <div class="data-element">
+              <div class="data-name">
+                {{ .Stem}}
+              </div>
+              <div class="data-value">
+                 {{.Resp}}
+              </div>
+             </div>
+             <div class="data-element">
+              <div class="data-name">
+                 Titulo
+              </div>
+              <div class="data-value">
+                 Director Medico
+              </div>
+             </div>
+             <div class="data-element">
+               <div class="data-name">
+                 Coreo
+               </div>
+               <div class="data-value">
+                 fbido@hsamaritano.org
+               </div>
+              </div>
+          </div>
+        <button class="showData"  data-id="1">Mas</button>
+    
+    {{else}}
+
+    // rest in seconday
+
+    {{end}}
+{{end}}
