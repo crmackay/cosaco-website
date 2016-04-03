@@ -28,5 +28,7 @@ _testmain.go
 
 *.DS_Store
 
+*.brackets.json
+
 # data-file:
 data
